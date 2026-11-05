@@ -20,8 +20,20 @@
 
 ## 素材と公開手順
 
-背景は Unity のタイトル画像 `TitleForest.png` のWebP変換です。盾・氷結弾のPNGは既存の `ShieldIcon.png` と `WaterBallSnowflakeIcon.png` を使用し、残る14種は選択画面の `SkillIconProvider.cs` と `SkillCatalog.cs` のパターンと配色を画像化しました。背景と既存PNG2点については、プロジェクト内で出所やWeb再配布許諾の記録を確認できませんでした。公開前に権利を確認してください。
+背景は Unity のタイトル画像 `TitleForest.png` のWebP変換です。盾・氷結弾のPNGは既存の `ShieldIcon.png` と `WaterBallSnowflakeIcon.png` を使用し、残る14種は選択画面の `SkillIconProvider.cs` と `SkillCatalog.cs` のパターンと配色を画像化しました。
 
 1. 別のPublicリポジトリのルートに、このフォルダの中身を置きます。`index.html` と隠しファイルの `.nojekyll` も含めます。
 2. リポジトリの **Settings → Pages** で **Deploy from a branch** を選び、公開ブランチ（例 `main`）と **/(root)** を選択します。[GitHub Pages公式手順](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 3. Pagesに表示された公開URLをスマホで開いて確認し、そのURLを会場掲示用QRコードにします。
+
+## 著作権・利用条件
+
+© 2026 Escape 制作チーム. All Rights Reserved.
+
+本サイトはEscape制作チームによって制作・管理されています。本サイトに含まれる文章、画像、イラスト、アイコン、デザイン、プログラム等について、制作チームが保有する権利を留保します。権利者の事前の許可がある場合、または法令により認められる場合を除き、無断転載・複製・再配布・改変・二次利用を禁止します。
+
+この方針は、制作チームが法的に権利を保有する範囲に適用されます。掲載コンテンツには、制作チームが制作したものと、Codex・ChatGPTを利用して生成したものが含まれます。AIを利用した生成物については、法令上認められる範囲で権利を留保します。
+
+本プロジェクトはオープンソースとして利用許諾していません。公開リポジトリをGitHub上で閲覧・フォークするなど、GitHub利用規約により認められる範囲で機能を利用できます。[GitHub利用規約（D.5）](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#5-license-grant-to-other-users)
+
+サイト上の表記は [著作権・利用条件ページ](terms.html) で確認できます。
