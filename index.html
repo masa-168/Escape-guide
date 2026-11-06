@@ -38,8 +38,8 @@
         </div>
         <div class="hero-stats" aria-label="収録スキル数">
           <span><b data-total>20</b> 掲載スキル</span>
-          <span><b data-active>11</b> アクティブ</span>
-          <span><b data-passive>09</b> パッシブ</span>
+          <span><b data-active>10</b> アクティブ</span>
+          <span><b data-passive>10</b> パッシブ</span>
         </div>
       </div>
       <figure class="hero-art">
@@ -78,18 +78,18 @@
         <summary>スキルの取得と使い方</summary>
         <ul>
           <li>開始時や一部のウェーブ・ボスのクリア後に、最大3つの候補から1つを選びます。選択画面では <kbd>R</kbd> で候補を1回引き直せます。</li>
-          <li>戦闘中のアクティブは取得順に <kbd>Q</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> が割り当てられ、最大4枠です。</li>
+          <li>新しく取得したアクティブは <kbd>Q</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> のうち最初の空き枠に入ります。4枠が埋まったあとも、取得済みのアクティブは再取得で強化できます。</li>
           <li>蓄力砲は割り当てキーを長押しし、離した瞬間に発射します。</li>
-          <li>パッシブは取得すると自動で効果を発揮し、アクティブの枠を使いません。</li>
-          <li>同じスキルの再取得で原則Lv.5まで強化できます。移動速度アップの取得は1回です。</li>
+          <li>パッシブは専用欄に入り、取得すると自動で効果を発揮します。</li>
+          <li>同じスキルの再取得でLv.5まで強化できます。移動速度アップはLv.1で効果が最大です。</li>
           <li>性能表のダメージは、通常の命中で減るHPの目安です。ボス戦ではオオモノ狩りの補正や、短時間に受けるダメージの上限で変動します。</li>
         </ul>
       </details>
       <div class="catalog-controls">
         <div class="filters" role="group" aria-label="スキルの種類で絞り込む">
           <button type="button" data-filter="all" aria-pressed="true">すべて <span data-total>20</span></button>
-          <button type="button" data-filter="active" aria-pressed="false">アクティブ <span data-active>11</span></button>
-          <button type="button" data-filter="passive" aria-pressed="false">パッシブ <span data-passive>09</span></button>
+          <button type="button" data-filter="active" aria-pressed="false">アクティブ <span data-active>10</span></button>
+          <button type="button" data-filter="passive" aria-pressed="false">パッシブ <span data-passive>10</span></button>
         </div>
         <p class="results" id="result-count" role="status"></p>
       </div>
