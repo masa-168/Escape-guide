@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1413">
-  <meta name="description" content="Unity製シューティングゲーム『Escape』の公式スキルガイド。全16種のスキルと強化内容、おすすめの組み合わせを紹介。">
+  <meta name="description" content="Unity製シューティングゲーム『Escape』の公式スキルガイド。スキルの効果や強化内容、おすすめの組み合わせを紹介。">
   <title>Escape — 公式スキルガイド</title>
   <link rel="icon" href="./assets/crest.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css">
@@ -37,9 +37,9 @@
           <a class="button secondary" href="#builds">おすすめ構成 <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-stats" aria-label="収録スキル数">
-          <span><b data-total>16</b> 全スキル</span>
-          <span><b data-active>08</b> アクティブ</span>
-          <span><b data-passive>08</b> パッシブ</span>
+          <span><b data-total>20</b> 掲載スキル</span>
+          <span><b data-active>11</b> アクティブ</span>
+          <span><b data-passive>09</b> パッシブ</span>
         </div>
       </div>
       <figure class="hero-art">
@@ -77,16 +77,19 @@
       <details class="game-rules">
         <summary>スキルの取得と使い方</summary>
         <ul>
-          <li>アクティブは取得順に <kbd>Q</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> が割り当てられ、最大4枠です。</li>
+          <li>開始時や一部のウェーブ・ボスのクリア後に、最大3つの候補から1つを選びます。選択画面では <kbd>R</kbd> で候補を1回引き直せます。</li>
+          <li>戦闘中のアクティブは取得順に <kbd>Q</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> が割り当てられ、最大4枠です。</li>
+          <li>蓄力砲は割り当てキーを長押しし、離した瞬間に発射します。</li>
           <li>パッシブは取得すると自動で効果を発揮し、アクティブの枠を使いません。</li>
           <li>同じスキルの再取得で原則Lv.5まで強化できます。移動速度アップの取得は1回です。</li>
+          <li>性能表のダメージは、通常の命中で減るHPの目安です。ボス戦ではオオモノ狩りの補正や、短時間に受けるダメージの上限で変動します。</li>
         </ul>
       </details>
       <div class="catalog-controls">
         <div class="filters" role="group" aria-label="スキルの種類で絞り込む">
-          <button type="button" data-filter="all" aria-pressed="true">すべて <span data-total>16</span></button>
-          <button type="button" data-filter="active" aria-pressed="false">アクティブ <span data-active>08</span></button>
-          <button type="button" data-filter="passive" aria-pressed="false">パッシブ <span data-passive>08</span></button>
+          <button type="button" data-filter="all" aria-pressed="true">すべて <span data-total>20</span></button>
+          <button type="button" data-filter="active" aria-pressed="false">アクティブ <span data-active>11</span></button>
+          <button type="button" data-filter="passive" aria-pressed="false">パッシブ <span data-passive>09</span></button>
         </div>
         <p class="results" id="result-count" role="status"></p>
       </div>

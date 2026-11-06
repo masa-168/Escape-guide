@@ -19,7 +19,7 @@ function icon(skill) {
   const frame = element("span", "skill-icon");
   frame.style.setProperty("--accent", skill.color);
   const image = element("img");
-  image.src = "./assets/icons/" + skill.id + ".png";
+  image.src = "./assets/icons/" + (skill.icon ?? skill.id) + ".png";
   image.alt = "";
   image.width = 32;
   image.height = 32;
@@ -174,7 +174,7 @@ function applyFilter(type) {
   for (const button of document.querySelectorAll("[data-filter]")) {
     button.setAttribute("aria-pressed", String(button.dataset.filter === type));
   }
-  document.querySelector("#result-count").textContent = "全" + skills.length + "種中 " + visible + "種を表示";
+  document.querySelector("#result-count").textContent = "掲載" + skills.length + "種中 " + visible + "種を表示";
 }
 
 document.querySelector("#build-list").append(...builds.map(buildCard));
